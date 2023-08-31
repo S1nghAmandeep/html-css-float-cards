@@ -6,6 +6,8 @@
 
 body {
     background-color: white;
+    font-family: 'Fredoka', sans-serif;
+    
 }
 
 .container {
@@ -13,11 +15,81 @@ body {
     margin: 0 auto;
 }
 
+img {
+    width: 90px;
+    display:block;
+}
+
 /* intetazione pagina */
 .page-title {
     text-align: center;
 }
 
-.page-title h1, p{
+
+h1 {
+    color: rgb(238, 97, 120);
+    font-weight: bold;
+    margin: 40px;
+}
+
+p {
+    font-weight: lighter;
+}
+
+/* introduzione team */
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.block {
+    float: left;
+	/* width: 31%; */
+    width: calc((100% - 60px) / 3);
+	margin: 0px 10px;
+    margin-top: 40px;
+    background-color: black;
+    box-shadow: 5px 5px 2px lightgrey;
+}
+
+
+.fl {
+    float: left;
+    margin-right: 10px;
+}
+
+
+.team-info {
+    padding-top: 16px;
+    color: white;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+/* testo fine documento */
+.footer-line {
+    color: white;
+    text-align: center; 
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+
+.footer{
+    background-color: rgb(56, 55, 55);
+    padding: 20px;
     margin-top: 50px;
 }
+
+div br:last-child {
+    color: blue;
+    font-size: 500px;
+}
+
+p:nth-child(3) {
+    color: blue;
+}
+
+
+
